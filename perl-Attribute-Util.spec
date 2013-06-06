@@ -1,15 +1,14 @@
 %define upstream_name    Attribute-Util
-%define upstream_version 1.06
-
+%define upstream_version 1.07
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	3
+Version:	%perl_convert_version 1.07
+Release:	1
 
 Summary:	Attribute interface to Memoize.pm
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/Attribute/%{upstream_name}-%{upstream_version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/Attribute/Attribute-Util-1.07.tar.gz
 
 BuildRequires:	perl-devel
 BuildRequires:	perl(Attribute::Handlers)
@@ -58,3 +57,4 @@ perl Makefile.PL INSTALLDIRS=vendor
 
 * Thu Sep 17 2009 cpan2dist 1.05-1mdv
 - initial mdv release, generated with cpan2dist
+
