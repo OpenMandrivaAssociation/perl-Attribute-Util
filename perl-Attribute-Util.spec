@@ -2,7 +2,7 @@
 %define upstream_version 1.07
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version 1.07
-Release:	2
+Release:	3
 
 Summary:	Attribute interface to Memoize.pm
 License:	GPL+ or Artistic
