@@ -7,7 +7,7 @@ Release:	3
 Summary:	Attribute interface to Memoize.pm
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		http://search.cpan.org/dist/%{upstream_name}
+Url:		https://search.cpan.org/dist/%{upstream_name}
 Source0:	http://www.cpan.org/modules/by-module/Attribute/Attribute-Util-1.07.tar.gz
 
 BuildRequires:	perl-devel
