@@ -1,14 +1,14 @@
 %define upstream_name    Attribute-Util
 %define upstream_version 1.07
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version 1.07
-Release:	3
+Version:	%{upstream_version}
+Release:	4
 
 Summary:	Attribute interface to Memoize.pm
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/Attribute/Attribute-Util-1.07.tar.gz
+Url:		https://metacpan.org/dist/Attribute-Util
+Source0:	https://cpan.metacpan.org/authors/id/D/DA/DANKOGAI/Attribute-Util-1.07.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
